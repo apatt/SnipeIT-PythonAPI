@@ -1,8 +1,10 @@
+#!/bin/env python
+
 from setuptools import setup
 
-with open("README.rst,"r") as fh:
+with open("README.rst","r") as fh:
 	long_description = fh.read()
-	
+
 setup(name='snipeit',
       version='1.1',
 	  long_description=long_description,
